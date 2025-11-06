@@ -9,7 +9,15 @@
 <body>
   <div class="container">
     <header>
-      <h1 class="logo"><img src="./assets/logo.png" alt=""></h1>
+      <h1 class="logo"><img src="./assets/logo.png" alt="logoVideoBelajar">
+      <nav class="hidden">
+        <a href="#">Kategori</a>
+        <div class="user-info">
+          <img id="userPhoto" src="assets/Screenshot 2025-09-10 at 22.54.50.png" alt="Foto Pengguna">
+          <span id="userName"></span>
+        </div>
+      </h1>
+      </nav>
     </header>
 
     <div class="card">
@@ -18,18 +26,18 @@
 
       <form>
         <label for="email">E-Mail <span>*</span></label>
-        <input type="email" id="email" placeholder="Masukkan email kamu" required />
+        <input type="email" id="email"/>
 
         <label for="password">Kata Sandi <span>*</span></label>
         <div class="password-field">
-          <input type="password" id="password" placeholder="Masukkan kata sandi" required />
-          <span class="toggle">&#128065;</span>
+          <input type="password" id="password"/>
+          <span class="toggle"><img src="assets/Vector.png" alt="togglePassword"></span>
         </div>
 
         <a href="#" class="forgot">Lupa Password?</a>
 
         <button type="submit" class="btn primary">Masuk</button>
-        <button type="button" class="btn secondary">Daftar</button>
+        <button type="button" class="btn secondary">Daftar <a href=""></a></button>
 
         <div class="divider"><span>atau</span></div>
 
