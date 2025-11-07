@@ -13,9 +13,17 @@ body {
   min-height: 100vh;
 }
 
-.container {
+.containerLogin {
   width: 100%;
   max-width: 400px;
+  padding: 28px 20px;
+}
+
+.containerRegister {
+  width: 100%;
+  max-width: 400px;
+  padding: 28px 20px;
+  margin-top: 4rem;
 }
 
 .logo {
@@ -117,6 +125,66 @@ input[type="password"] {
   border: 1px solid #ddd;
   border-radius: 6px;
   margin-bottom: 1rem;
+}
+
+input[type="Nama Lengkap"] {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+input[type="No. HP"] {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.phone-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.phone-input input[type="tel"] {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  margin-left: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.country-code {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 8px 14px 8px 10px;
+  border-right: 1px solid #ddd;
+  gap: 6px;
+}
+
+.country-code img {
+  width: 20px;
+  height: 14px;
+  border: 1px solid #ccc;
+}
+
+.country-code select {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
 }
 
 .password-field {
